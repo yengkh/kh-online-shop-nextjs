@@ -64,17 +64,87 @@ body{
 }
 
 /* Product Category */
-
 .all-products-category {
     margin: 120px auto 0;
-    height: 400px;
+    height: 800px;
     background-color: white;
     width: 80%;
     border: 1px solid #B5C18E;
     border-radius: 2px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
+.product-category-tems {
+    height: 300px; 
+    margin: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.font-item-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carousel-banner {
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+.carousel-banner-item {
+    background-color: red;
+}
+
+/* components/CustomCarousel.module.css */
+.carousel {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 80%;
+    margin: 100px auto;
+  }
+  
+.imageContainer {
+    flex: 1;
+    text-align: center;
+}
+  
+.arrowButton {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 10px;
+    /* user-select: none; */
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .indicator {
+    width: 40px;
+    height: 5px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: blue;
+  }
+  
+
+/* Bottom */
 .bottom {
     height: 200px;
 }

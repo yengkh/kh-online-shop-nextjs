@@ -24,4 +24,4 @@ const BannerCartItem = ({title, content, icon}) => {
   )
 }
 
-export default BannerCartItem
+export default BannerCartItem;

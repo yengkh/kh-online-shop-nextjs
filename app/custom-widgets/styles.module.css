@@ -1,0 +1,15 @@
+.textrowstyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.rightitems {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  cursor: pointer;
+  color: blue;
+}

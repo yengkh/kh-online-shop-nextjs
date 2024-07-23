@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./style.css";
 
 const NewArrival = () => {
-  return (
-    <div>NewArrival</div>
-  )
-}
+  return <div>NewArrival</div>;
+};
 
-export default NewArrival
+export default NewArrival;
